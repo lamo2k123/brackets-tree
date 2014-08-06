@@ -1,0 +1,68 @@
+#project-files-container a {
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#project-files-container .jstree-icon {
+    display: none;
+}
+
+#project-files-container .jstree-leaf:before,
+#project-files-container .jstree-leaf a:after,
+#project-files-container .jstree-open:before,
+#project-files-container .jstree-open a:before,
+#project-files-container .jstree-closed:before,
+#project-files-container .jstree-closed a:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #fff;
+}
+
+#project-files-container .jstree-leaf:before,
+#project-files-container .jstree-open:before,
+#project-files-container .jstree-closed:before {
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+}
+
+#project-files-container .jstree-leaf a:after,
+#project-files-container .jstree-open a:before,
+#project-files-container .jstree-closed a:before {
+    height: 1px;
+    top: 50%;
+    bottom: auto;
+    width: 10px;
+    margin-left: -9px;
+}
+
+#project-files-container .jstree-leaf.jstree-last:before {
+    bottom: 50%;
+}
+
+#project-files-container .jstree-open > a:after, 
+#project-files-container .jstree-closed > a:after {
+    content: '-';
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-left: -15px;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #fff;
+    color: #fff;
+    background-color: #3c3f41;
+    border-radius: 2px;
+    line-height: 10px;
+    text-align: center;
+    text-shadow: none;
+    font-weight: bold;
+    margin-top: -6px;
+}
+
+#project-files-container .jstree-closed > a:after {
+    content: '+';
+}

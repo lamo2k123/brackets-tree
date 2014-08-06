@@ -1,0 +1,18 @@
+{
+    "name"          : "L2K-FT",
+    "title"         : "Brackets File Tree",
+    "description"   : "Brackets file tree.",
+    "homepage"      : "https://github.com/drewbkoch/Brackets-File-Icons",
+    "version"       : "1.0.0",
+    "author"        : "Alexsey Novikov (https://github.com/lamo2k123)",
+    "license"       : "MIT",
+    "keywords": [
+		"icons",
+		"file",
+		"tree",
+		"sidebar"
+    ],
+    "engines": {
+        "brackets": ">=0.41.0"
+    }
+}
