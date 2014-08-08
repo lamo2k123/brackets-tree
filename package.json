@@ -9,7 +9,15 @@
         "email" : "lamo2k123@gmail.com",
         "url"   : "https://github.com/lamo2k123"
     },
-    "license"       : "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lamo2k123/brackets-tree.git"
+    },
+    "bugs": {
+        "url": "https://github.com/lamo2k123/brackets-tree/issues",
+        "email": "lamo2k123@gmail.com"
+    },
+    "license" : "MIT",
     "keywords": [
 		"tree",
         "display tree",
