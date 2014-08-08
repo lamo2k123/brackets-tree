@@ -1,18 +1,25 @@
 {
-    "name"          : "L2K-FT",
+    "name"          : "lamo2k123.Brackets-file-tree",
     "title"         : "Brackets File Tree",
-    "description"   : "Brackets file tree.",
-    "homepage"      : "https://github.com/drewbkoch/Brackets-File-Icons",
-    "version"       : "1.0.1",
-    "author"        : "Alexsey Novikov (https://github.com/lamo2k123)",
+    "description"   : "Visual display of the tree of files and folders. (Визуальное отображение дерева файлов и папок)",
+    "homepage"      : "http://l2k-dev.ru/topic/3/brackets-file-tree",
+    "version"       : "1.0.2",
+    "author"        : "Alexsey Novikov <lamo2k123@gmail.com> (https://github.com/lamo2k123)",
     "license"       : "MIT",
     "keywords": [
-		"icons",
-		"file",
 		"tree",
-		"sidebar"
+        "display tree",
+		"file",
+		"files",
+		"folder",
+		"folders",
+		"sidebar tree",
+        "brackets file tree",
+        "file tree"
     ],
     "engines": {
         "brackets": ">=0.41.0"
-    }
+    },
+    "files" : [],
+    "categories" : "visual"
 }
