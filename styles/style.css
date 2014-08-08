@@ -4,65 +4,81 @@
     z-index: 2;
 }
 
-#project-files-container .jstree-icon {
-    display: none;
-}
-
 #project-files-container .jstree-leaf:before,
-#project-files-container .jstree-leaf a:after,
+#project-files-container .jstree-leaf:after,
 #project-files-container .jstree-open:before,
-#project-files-container .jstree-open a:before,
 #project-files-container .jstree-closed:before,
-#project-files-container .jstree-closed a:before {
+#project-files-container .jstree-open > ul:before {
     content: '';
     display: block;
     position: absolute;
-    background-color: #fff;
 }
 
 #project-files-container .jstree-leaf:before,
 #project-files-container .jstree-open:before,
 #project-files-container .jstree-closed:before {
+    border-top: solid 11px #fff;
+    border-bottom: solid 11px #fff;
     width: 1px;
-    top: 0;
-    bottom: 0;
     left: -5px;
-}
-
-#project-files-container .jstree-leaf a:after,
-#project-files-container .jstree-open a:before,
-#project-files-container .jstree-closed a:before {
-    height: 1px;
-    top: 50%;
-    bottom: auto;
-    width: 10px;
-    margin-left: -9px;
+    top: 0;
 }
 
 #project-files-container .jstree-leaf.jstree-last:before {
-    bottom: 50%;
+    border-bottom: none;
 }
 
-#project-files-container .jstree-open > a:after, 
-#project-files-container .jstree-closed > a:after {
+#project-files-container .jstree-leaf:after {
+    height: 1px;
+    width: 8px;
+    background-color: #fff;
+    left: -5px;
+    top: 50%;
+}
+
+#project-files-container .jstree-open:before,
+#project-files-container .jstree-closed:before {
+    height: 10px;
+    border-bottom-width: 6px;
+    border-top-width: 6px;
+}
+
+#project-files-container .jstree-open.jstree-last:before,
+#project-files-container .jstree-closed.jstree-last:before {
+    border-bottom: none;
+}
+
+#project-files-container .jstree-open > ul:before {
+    top: 21px;
+    bottom: 0;
+    width: 1px;
+    background-color: #fff;
+    left: -5px;
+}
+
+#project-files-container .jstree-open.jstree-last > ul:before {
+    display: none;
+}
+
+#project-files-container .jstree-open:after,
+#project-files-container .jstree-closed:after {
     content: '-';
     display: block;
     position: absolute;
-    top: 50%;
-    margin-left: -15px;
-    width: 10px;
-    height: 10px;
+    top: 6px;
+    width: 9px;
+    height: 9px;
     border: solid 1px #fff;
     color: #fff;
-    background-color: #3c3f41;
     border-radius: 2px;
-    line-height: 10px;
+    line-height: 8px;
     text-align: center;
-    text-shadow: none;
     font-weight: bold;
-    margin-top: -6px;
+    font-size: 10px;
+    left: -10px;
 }
 
-#project-files-container .jstree-closed > a:after {
+#project-files-container .jstree-closed:after {
     content: '+';
+    line-height: 9px;
 }
