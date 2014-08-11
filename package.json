@@ -32,6 +32,8 @@
     "engines": {
         "brackets": ">=0.41.0"
     },
-    "files" : [],
+    "files" : [
+    	".gitignore"	
+    ],
     "categories" : "visual"
 }
