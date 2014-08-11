@@ -3,7 +3,7 @@
     "title"         : "Brackets File Tree",
     "description"   : "Visual display of the tree of files and folders. (Визуальное отображение дерева файлов и папок)",
     "homepage"      : "http://l2k-dev.ru/topic/3/brackets-file-tree",
-    "version"       : "1.0.3",
+    "version"       : "1.0.4",
     "author": {
         "name"  : "Alexsey Novikov",
         "email" : "lamo2k123@gmail.com",
@@ -32,8 +32,5 @@
     "engines": {
         "brackets": ">=0.41.0"
     },
-    "files" : [
-    	".gitignore"	
-    ],
     "categories" : "visual"
 }
