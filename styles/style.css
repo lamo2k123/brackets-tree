@@ -7,7 +7,7 @@
 #project-files-container .jstree-leaf,
 #project-files-container .jstree-open,
 #project-files-container .jstree-closed {
-    margin-left: 14px;
+    margin-left: 18px;
 }
 
 #project-files-container .jstree-leaf:before,
@@ -28,7 +28,7 @@
     border-top: solid 11px #fff;
     border-bottom: solid 11px #fff;
     width: 1px;
-    left: -9px;
+    left: -13px;
     top: 0;
 }
 
@@ -42,14 +42,14 @@
     height: 1px;
     width: 12px;
     background-color: #fff;
-    left: -9px;
+    left: -13px;
     top: 50%;
 }
 
 #project-files-container .jstree-open > a:after,
 #project-files-container .jstree-closed > a:after {
     left: auto;
-    margin-left: -8px;
+    margin-left: -12px;
     width: 6px;
 }
 
@@ -70,7 +70,7 @@
     bottom: 0;
     width: 1px;
     background-color: #fff;
-    left: -9px;
+    left: -13px;
 }
 
 #project-files-container .jstree-open.jstree-last > ul:before {
@@ -92,7 +92,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 10px;
-    left: -14px;
+    left: -18px;
 }
 
 #project-files-container .jstree-closed:after {
