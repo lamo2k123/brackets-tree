@@ -7,6 +7,7 @@
 #project-files-container .jstree-leaf,
 #project-files-container .jstree-open,
 #project-files-container .jstree-closed {
+	min-height: 22px;
     margin-left: 18px;
 }
 
@@ -32,7 +33,7 @@
     top: 0;
 }
 
-#project-files-container .jstree-leaf.jstree-last:before {
+#project-files-container ul li:last-child.jstree-leaf:before {
     border-bottom: none;
 }
 
@@ -60,8 +61,8 @@
     border-top-width: 6px;
 }
 
-#project-files-container .jstree-open.jstree-last:before,
-#project-files-container .jstree-closed.jstree-last:before {
+#project-files-container ul li:last-child.jstree-open:before,
+#project-files-container ul li:last-child.jstree-closed:before {
     border-bottom: none;
 }
 
@@ -73,7 +74,7 @@
     left: -13px;
 }
 
-#project-files-container .jstree-open.jstree-last > ul:before {
+#project-files-container ul li:last-child.jstree-open > ul:before {
     display: none;
 }
 
