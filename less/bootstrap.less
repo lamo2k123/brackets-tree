@@ -1,0 +1,148 @@
+#project-files-header {
+    position: relative;
+    
+    .bft-toggle-type {
+        opacity: 0.5;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        margin-top: -8px;
+        width: 14px;
+        height: 14px;
+        display: block;
+        border: solid 1px #fff;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #fff;
+        
+        &:hover {
+            opacity: 1;
+        }
+        
+        &.bft-square {
+            border-radius: 2px;
+        }
+        
+    }
+    
+}
+
+#project-files-container {
+    
+    a {
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+    }
+    
+    .jstree-leaf,
+    .jstree-open,
+    .jstree-closed {
+        min-height: 22px;
+        margin-left: 18px;
+    }
+    
+    .jstree-leaf:before,
+    .jstree-leaf:after,
+    .jstree-open:before,
+    .jstree-closed:before,
+    .jstree-open > a:after,
+    .jstree-closed > a:after,
+    .jstree-open > ul:before {
+        content: '';
+        display: block;
+        position: absolute;
+    }
+    
+    .jstree-leaf:before,
+    .jstree-open:before,
+    .jstree-closed:before {
+        border-top: solid 11px #fff;
+        border-bottom: solid 11px #fff;
+        width: 1px;
+        left: -13px;
+        top: 0;
+    }
+
+    ul li:last-child.jstree-leaf:before {
+        border-bottom: none;
+    }
+
+    .jstree-leaf:after,
+    .jstree-open > a:after,
+    .jstree-closed > a:after {
+        height: 1px;
+        width: 12px;
+        background-color: #fff;
+        left: -13px;
+        top: 50%;
+    }
+
+    .jstree-open > a:after,
+    .jstree-closed > a:after {
+        left: auto;
+        margin-left: -12px;
+        width: 6px;
+    }
+
+    .jstree-open:before,
+    .jstree-closed:before {
+        height: 10px;
+        border-bottom-width: 6px;
+        border-top-width: 6px;
+    }
+
+    ul li:last-child.jstree-open:before,
+    ul li:last-child.jstree-closed:before {
+        border-bottom: none;
+    }
+
+    .jstree-open > ul:before {
+        top: 21px;
+        bottom: 0;
+        width: 1px;
+        background-color: #fff;
+        left: -13px;
+    }
+
+    ul li:last-child.jstree-open > ul:before {
+        display: none;
+    }
+
+    .jstree-open:after,
+    .jstree-closed:after {
+        content: '-';
+        display: block;
+        position: absolute;
+        top: 6px;
+        width: 9px;
+        height: 9px;
+        border: solid 1px #fff;
+        color: #fff;
+        border-radius: 2px;
+        line-height: 8px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+        left: -18px;
+    }
+
+    .jstree-closed:after {
+        content: '+';
+        line-height: 9px;
+    }
+
+    .jstree-icon {
+        background-image: none;
+    }
+
+    &.bft-circle {
+        
+        .jstree-open:after,
+        .jstree-closed:after {
+            border-radius: 50%;
+        }
+            
+    }
+    
+}

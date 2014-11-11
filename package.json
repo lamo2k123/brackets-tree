@@ -3,7 +3,7 @@
     "title"         : "Brackets File Tree",
     "description"   : "Visual display of the tree of files and folders.",
     "homepage"      : "http://l2k-dev.ru/topic/3/brackets-file-tree",
-    "version"       : "1.0.7",
+    "version"       : "1.1.0",
     "author": {
         "name"  : "Alexsey Novikov",
         "email" : "lamo2k123@gmail.com",
@@ -16,6 +16,12 @@
     "bugs": {
         "url": "https://github.com/lamo2k123/brackets-tree/issues",
         "email": "lamo2k123@gmail.com"
+    },
+    "devDependencies": {
+        "grunt": ">= 0.4",
+        "grunt-cli": ">= 0.1.6",
+        "grunt-contrib-watch": "~0.3.1",
+        "grunt-contrib-less": "~0.12.0"
     },
     "license" : "MIT",
     "keywords": [
